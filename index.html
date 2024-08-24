@@ -57,7 +57,7 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a href="">
+              <a href="" class=" hidden md:block">
                 <svg
                   class="w-12 h-12 p-2 rounded-full bg-[#fff] shadow-lg"
                   xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@
                   />
                 </svg>
               </a>
-              <a href="" class="mx-2">
+              <a href="" class="mx-2 hidden md:block">
                 <svg
                   class="w-12 h-12 p-2 rounded-full bg-[#fff] shadow-lg"
                   xmlns="http://www.w3.org/2000/svg"
@@ -365,7 +365,7 @@
            </section>
            <!-- next project section -->
             <section class="bg-[url('./assets/bg.jpg')] bg-center bg-cover bg-no-repeat py-24 lg:container mx-auto">
-              <div class="flex flex-col justify-center items-center">
+              <div class="flex flex-col justify-center items-center mx-5">
                 <div class="flex flex-col items-center justify-center">
                   <div class="text-center relative" >             
                     <a href="" class="btn bg-[rgba(171,239,95,0.2)] rounded-full mb-4">
@@ -376,15 +376,15 @@
                     </a> 
                   </div>
                   <h1 class="pt-4 pb-6 font-bold text-4xl">Let’s Discuss Next Project</h1>
-                    <p class="font-medium pb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <p class="font-medium pb-8 text-wrap">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="grid grid-cols-2 gap-6" >
+                <div class="grid grid-col-1 lg:grid-cols-2 gap-6" >
                   <input type="text" placeholder="Frist Name*"   class="input input-bordered w-96 rounded-full placeholder:text-sm" />
                   <input type="text" placeholder="Last Name*"    class="input input-bordered w-96 rounded-full placeholder:text-sm" />
                   <input type="text" placeholder="Phone Number*" class="input input-bordered w-96 rounded-full placeholder:text-sm" />
                   <input type="text" placeholder="Email Number*" class="input input-bordered w-96 rounded-full placeholder:text-sm" />
-                  <textarea class="textarea textarea-bordered col-span-2 row-span-10  rounded-2xl" placeholder="Write your message here"></textarea>
-                  <button class="btn rounded-full bg-[#Abef5f] font-extrabold text-xl col-span-2 px-4">Send Mail <svg
+                  <textarea class="textarea textarea-bordered lg:col-span-2 row-span-10  rounded-2xl" placeholder="Write your message here"></textarea>
+                  <button class="btn rounded-full bg-[#Abef5f] font-extrabold text-xl lg:col-span-2 px-4">Send Mail <svg
                     class="size-6 p-1 rounded-full bg-[#030303] text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -403,6 +403,56 @@
               </div>
             </section>
     </main>
-    <footer></footer>
+    <footer class="py-24 bg-[#1c1c1c]">
+      <div class="flex flex-col justify-center items-center" >             
+        <div class="flex items-center justify-center">
+          <svg
+                class="w-9 h-9 p-1 rounded-full bg-[#ABEF5F]"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+    
+              <a class="btn btn-ghost text-white text-3xl font-extrabold">Rinterio</a>
+    
+        </div>
+        <p class="font-medium pt-4 pb-12 text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <div class="mb-12">
+          <ul class="grid grid-cols-5 gap-28">
+            <li><a href="" class="text-white">Home</a></li>
+            <li><a href="" class="text-white">Services</a></li>
+            <li><a href="" class="text-white">Portfolio</a></li>
+            <li><a href="" class="text-white">Blogs</a></li>
+            <li><a href="" class="text-white">Contact Us</a></li>
+          </ul>
+        </div>
+        <a class="btn font-extrabold bg-[#ABEF5F] rounded-full"
+                >Book Consult
+                <svg
+                  class="size-6 p-1 rounded-full bg-[#030303] text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                  </svg>
+                </a>
+      </div>
+    </footer>
   </body>
 </html>
